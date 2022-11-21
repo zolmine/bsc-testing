@@ -9,8 +9,8 @@ gasFunc02 = str(dumps({
   "id": 0,
   "method": "eth_getTransactionsByBlockNumber",
   "params": [
-    "pending",
-    True
+    "latest",
+    ""
   ]
 }), "utf-8")
 # gasFunc02 = str(dumps({
