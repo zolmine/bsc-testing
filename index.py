@@ -4,7 +4,6 @@ from time import time
 
 link = "ws://127.0.0.1:8546"
 ws = create_connection(link)
-# old0xc59fBcdF5fea4c80fa4f1Ae2f20D51EF7B4472fc
 gasFunc02 = str(dumps({
   "jsonrpc": "2.0",
   "id": 0,
