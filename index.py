@@ -27,10 +27,9 @@ print(f"GetTransactionsByBlockNumber tooks {(time()*1000) - start} ms, result ==
 gasFunc02 = str(dumps({
   "jsonrpc": "2.0",
   "id": 0,
-  "method": "eth_getTransactionByBlockNumberAndIndex1",
+  "method": "eth_getPendingBlock",
   "params": [
-    "pending",
-    True
+    "pending"
   ]
 }), "utf-8")
 # gasFunc02 = str(dumps({
