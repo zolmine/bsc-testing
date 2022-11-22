@@ -7,10 +7,9 @@ ws = create_connection(link)
 gasFunc02 = str(dumps({
   "jsonrpc": "2.0",
   "id": 0,
-  "method": "eth_getTransactionsByBlockNumber",
+  "method": "eth_GetBlockByNumber",
   "params": [
     "latest",
-    ""
   ]
 }), "utf-8")
 # gasFunc02 = str(dumps({
