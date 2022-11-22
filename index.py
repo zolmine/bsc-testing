@@ -10,6 +10,7 @@ gasFunc02 = str(dumps({
   "method": "eth_getBlockByNumber",
   "params": [
     "latest",
+    True
   ]
 }), "utf-8")
 # gasFunc02 = str(dumps({
