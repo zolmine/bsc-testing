@@ -27,7 +27,7 @@ ws = create_connection(link)
 gasFunc02 = str(dumps({
   "jsonrpc": "2.0",
   "id": 0,
-  "method": "eth_getPendingBlock",
+  "method": "eth_getTransactionByBlockNumberAndIndex1",
   "params": [
     "pending"
   ]
